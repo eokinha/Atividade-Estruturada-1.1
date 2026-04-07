@@ -1,0 +1,57 @@
+Questão 1 – Modelagem e Análise de Estruturas
+Uma loja de informática precisa de um programa simples para armazenar informações sobre seus notebooks e identificar qual modelo possui a maior quantidade de memória RAM.
+
+Crie uma struct que permita representar as principais características de um notebook (como marca, modelo, quantidade de RAM e preço).
+Em seguida, desenvolva um algoritmo que leia as informações de alguns modelos,
+armazene-os em um vetor de estruturas
+Determine qual deles oferece mais memória RAM.
+O programa deve exibir o modelo e o preço correspondentes.
+
+Sugestões de apoio:
+
+Pense nos tipos de dados adequados para cada campo (string, int, float, etc.).
+
+Utilize um laço de repetição tanto para leitura quanto para busca do maior valor.
+
+Você pode inicializar os dados por entrada do usuário ou com valores fixos para testes.
+
+Lembre-se de exibir o resultado de forma clara e organizada.
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////qq
+
+
+Questão 2 – Passagem por Referência e Atualização de Dados
+Uma estufa inteligente precisa registrar o estado de diferentes plantas e atualizar seus dados automaticamente conforme o tempo passa sem rega.
+
+Crie uma struct que contenha os dados essenciais de uma planta, como espécie, dias sem água e status de irrigação ('N' para “necessita de rega” e 'O' para “ok”). Em seguida, desenvolva uma função que receba um ponteiro para essa estrutura e verifique se a planta precisa de irrigação. Caso o número de dias sem água seja maior ou igual a 3, o status deve ser atualizado para 'O' e o contador zerado.
+
+Sugestões de apoio:
+
+Use o operador -> para acessar os atributos dentro da função.
+
+Imprima os dados antes e depois da atualização para comprovar que houve alteração.
+
+Teste situações diferentes (ex.: planta com 1 dia sem água e outra com 5) para observar o comportamento da função.
+
+Reflita: o que mudaria se a função recebesse a planta por valor em vez de por ponteiro?
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Questão 3 – Integração: Vetores, Structs e Ponteiros
+Uma empresa de impressão 3D precisa registrar seus projetos e determinar quais podem ser finalizados dentro de um tempo limite estabelecido.
+
+Implemente uma struct que armazene informações como nome da peça, tempo estimado de impressão (em minutos) e status de conclusão (0 para não concluído, 1 para concluído).
+Depois, crie uma função que receba como parâmetros um vetor dessa estrutura, seu tamanho e um tempo limite máximo. A função deve percorrer todos os projetos e alterar o status para concluído apenas naqueles cujo tempo estimado seja menor ou igual ao limite.
+
+Sugestões de apoio:
+
+Crie alguns projetos com tempos variados (acima e abaixo do limite).
+
+Pense em como fazer a função percorrer o vetor por ponteiro em vez de índice.
+
+Após a execução, exiba apenas os nomes dos projetos marcados como concluídos.
+
+Experimente diferentes limites para verificar se a lógica está funcionando corretamente.
